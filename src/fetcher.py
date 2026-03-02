@@ -37,8 +37,8 @@ def fetch_stock_quote(symbol):
 
 def fetch_all_stocks():
     """
-    Loops through all stocks in our config and fetches each one.
-    Returns a pandas DataFrame — a table of all our stock data.
+    Loops through all stocks in our config and fetches each one
+    Returns a pandas DataFrame as a table of all stock data
     """
     
     all_quotes = []

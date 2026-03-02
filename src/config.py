@@ -8,14 +8,15 @@ load_dotenv()
 API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY") 
 BASE_URL = "https://www.alphavantage.co/query" 
 
-# Stocks we want to track 
+# Stocks to track 
 STOCKS = ["AAPL", "GOOGL", "MSFT", "AMZN"]
 
 # Database configuration  
 DB_CONFIG = { 
     "host" : "localhost", 
-    "databse": "stock_pipeline" , 
-    "user" : "postgres" , 
-    "port" : 5432
+    "database": "stock_pipeline" , 
+    "user" : "postgres" ,  
+    "password": "postgres", 
+    "port" : 5433
 
 }
